@@ -1,12 +1,7 @@
-// First, get references to the two forms and their submit buttons
 const calculationForm = document.getElementById("calculation-form");
-const jumlahkanButton = document.querySelector(
-  "#calculation-form button[type='submit']"
-);
+const jumlahkanButton = document.getElementById("jumlah-button");
 const registerForm = document.querySelector(".register-form");
-const daftarButton = document.querySelector(
-  ".register-form button[type='submit']"
-);
+const daftarButton = document.getElementById("register-button");
 
 jumlahkanButton.addEventListener("click", function (event) {
   const bilanganPertama = parseFloat(
