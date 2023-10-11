@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="penjumlahan">
+      <div class="container">
+        <h1>PENJUMLAHAN BILANGAN</h1>
+        <form action="" class="input-form" id="calculation-form">
+          <div class="input-field">
+            <label for="bilangan-pertama">Bilangan pertama</label>
+            <input
+              title="input bilangan pertama"
+              type="number"
+              name="bilangan-pertama"
+              id="bilangan-pertama"
+            />
+            <label for="bilangan-kedua">Bilangan kedua</label>
+            <input
+              title="input bilangan kedua"
+              type="number"
+              name="bilangan-kedua"
+              id="bilangan-kedua"
+            />
+          </div>
+          <div class="btn">
+            <button title="submit button" type="submit" class="jumlah-button">
+              Jumlahkan
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="validasi-form">
+      <div class="form-box">
+        <div class="container-2">
+          <h1>FORM VALIDASI PENDAFTARAN</h1>
+          <form action="" class="register-form">
+            <div class="input-field">
+              <label for="nama">Nama Lengkap</label>
+              <input
+                type="text"
+                title="nama lengkap"
+                required
+                name="nama"
+                id="nama"
+              />
+            </div>
+            <div class="input-field">
+              <label for="email">Email</label>
+              <input
+                required
+                type="email"
+                title="email"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="input-field">
+              <label for="alamat">Alamat</label>
+              <textarea
+                title="alamat"
+                name="alamat"
+                id="alamat"
+                required
+                cols="30"
+                rows="10"
+                placeholder="Masukkan Alamat Anda !"
+              ></textarea>
+            </div>
+            <button title="submit button" type="submit" class="register-button">
+              Daftar
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
