@@ -29,7 +29,6 @@ daftarButton.addEventListener("click", function (event) {
     namaInput.value.trim() === "" &&
     alamatInput.value.trim() === ""
   ) {
-    event.preventDefault();
     alert("Anda harus mengisi data dengan lengkap !");
   }
 });
